@@ -29,7 +29,7 @@ python main.py /phonemes/ /output/generated_sentence.wav
 * The sound files for phonemes should be in wav format and should be named in Thaana for that sound.
 * By default the program will convert the following sentence:
 > "ބޮޑު ބާޒާރުގައި ހުންނަ މޮޅު ތަކެތީގައި ސިލްޖަހަންޏާ ޕޯސްޓް އޮފީހުގެ ވެރިޔަކު ވާނީ ދާށެވެ."
-* If you want to change the input sentence, you can use -i in command line as shown below. It will prompt for an input sentence instead of using the default:
+* If you want to change the input sentence, you can use -i flag before [path to phonemes] in command line as shown below. It will prompt for an input sentence instead of using the default:
 ```
 python main.py -i /phonemes/ /output/generated_sentence.wav
 ```
