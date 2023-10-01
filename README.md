@@ -16,3 +16,20 @@ tqdm==4.66.1
 3. Open a terminal and navigate to the cloned directory.
 4. Run: `pip install -r requirements.txt`
 5. Read below instructions on how to use this program.
+
+## How to use
+* In terminal:
+```
+python main.py [path to phonemes] [output file]
+```
+* Example since some of the phonemes are already provided in /phonemes/ folder:
+```
+python main.py /phonemes/ /output/generated_sentence.wav
+```
+* The sound files for phonemes should be in wav format and should be named in Thaana for that sound.
+* By default the program will convert the following sentence:
+".ބޮޑު ބާޒާރުގައި ހުންނަ މޮޅު ތަކެތީގައި ސިލްޖަހަންޏާ ޕޯސްޓް އޮފީހުގެ ވެރިޔަކު ވާނީ ދާށެވެ"
+* If you want to change the input sentence, you can use -i in command line as shown below. It will prompt for an input sentence instead of using the default:
+```
+python main.py -i /phonemes/ /output/generated_sentence.wav
+```
