@@ -14,6 +14,7 @@ text_input = ""
 PHONEMES_PATH = os.path.dirname(__file__) + args.phonemes
 OUTPUT_FILE = os.path.dirname(__file__) + args.output
 
+# Use default sentence or prompt for an input if -i flag is used
 if args.input:
     inp = input("Write a sentence in Dhivehi to convert to speech:")
     text_input = inp
